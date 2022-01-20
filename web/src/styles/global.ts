@@ -7,7 +7,9 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html, body {
+  html, body, body > div {
     font-family: 'Rubik', sans-serif;
+    background-color: ${({ theme }) => theme.background};
+    color: ${({ theme }) => theme.foreground};
   }
 `;

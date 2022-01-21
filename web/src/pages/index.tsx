@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
+import { Title } from "../styles/pages/home";
 
 const Home: NextPage = () => {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <Title>MySRS</Title>
     </div>
   );
 };
